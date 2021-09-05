@@ -57,7 +57,7 @@
 * **Type of model**: Decision Tree model
 * **Software used to implement the model**: Python 3, scikit-learn
 * **Version of the modeling software**:python 3.7.11, scikit-learn 0.22.2.post1
-* **Hyperparameters or other settings of model**: * Hyperparameters or other settings of your model: DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini', max_depth=6, max_features=None, max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, min_samples_leaf=1, min_samples_split=2, min_weight_fraction_leaf=0.0, presort='deprecated', random_state=12345, splitter='best'
+* **Hyperparameters or other settings of model**: DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini', max_depth=6, max_features=None, max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None, min_samples_leaf=1, min_samples_split=2, min_weight_fraction_leaf=0.0, presort='deprecated', random_state=12345, splitter='best'
 ### Quantitative Analysis 
 * **Metrics used to evaluate final model**: Turns out depth=6 for the final model to use the training; Validation AUC, AIR 
 * **Final values of the metrics for all data**: 
